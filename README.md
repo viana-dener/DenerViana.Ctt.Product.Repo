@@ -86,7 +86,8 @@ dotnet run
 
 Listando produtos:
 
-![image](https://github.com/user-attachments/assets/495d66fe-4e7a-4748-9b3b-6bea9f8be5bb)
+![image](https://github.com/user-attachments/assets/05c675ae-e4ca-46cc-ae3a-c0e9cba09dc2)
+
 
 Obtendo produto por id:
 
