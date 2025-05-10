@@ -1,0 +1,6 @@
+@DenerViana.Ctt.Product.Api_HostAddress = http://localhost:5265
+
+GET {{DenerViana.Ctt.Product.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
