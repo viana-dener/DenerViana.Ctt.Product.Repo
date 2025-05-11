@@ -97,6 +97,11 @@ Inserindo um novo produto:
 
 ![image](https://github.com/user-attachments/assets/553ef636-3114-463b-8f5e-ca69f548f1d3)
 
+Testes de unidade:
+
+![image](https://github.com/user-attachments/assets/5df8ce70-f502-422d-bfdc-8f8683f1fe04)
+
+
 ---
 
 ## 📜 Licença
