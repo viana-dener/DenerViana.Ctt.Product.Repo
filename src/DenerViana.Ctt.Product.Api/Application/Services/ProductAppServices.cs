@@ -36,7 +36,7 @@ public class ProductAppServices(ILogInformation logInformation, INotify notify, 
     {
         if (await _services.ExistsAsync(request.Description))
         {
-            _notify.AddError("Product already exists");
+            _notify.AddError("Product already exists", 409);
             return false;
         }
 

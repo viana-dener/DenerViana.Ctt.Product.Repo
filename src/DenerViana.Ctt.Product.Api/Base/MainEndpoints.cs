@@ -63,7 +63,7 @@ public class MainEndpoints(ILogger<MainEndpoints> logger, IHttpContextAccessor h
         var requestLog = _httpContextAccessor?.HttpContext?.Items["RequestLogDto"] as RequestLogDto;
 
         using (LogContext.PushProperty("CorrelationId", requestLog.CorrelationId))
-        using (LogContext.PushProperty("StatusCode", (int)HttpStatusCode.OK))
+        using (LogContext.PushProperty("StatusCode", _notify.GetStatusCode()))
         using (LogContext.PushProperty("Headers", requestLog.Headers))
         using (LogContext.PushProperty("Payload", requestLog.Payload))
         {
