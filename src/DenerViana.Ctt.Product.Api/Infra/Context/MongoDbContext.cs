@@ -1,11 +1,12 @@
 ﻿using DenerViana.Ctt.Product.Api.Base;
+using DenerViana.Ctt.Product.Api.Domain.Interfaces;
 using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace DenerViana.Ctt.Product.Api.Infra.Context;
 
-public class MongoDbContext
+public class MongoDbContext : IMongoDbContext
 {
     private readonly IMongoDatabase _database;
 

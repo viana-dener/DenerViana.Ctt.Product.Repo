@@ -5,11 +5,11 @@ using MongoDB.Driver;
 
 namespace DenerViana.Ctt.Product.Api.Infra.Repository;
 
-public class ProductRepository(MongoDbContext context) : IProductRepository
+public class ProductRepository(IMongoDbContext context) : IProductRepository
 {
     #region Properties
 
-    private readonly MongoDbContext _context = context;
+    private readonly IMongoDbContext _context = context;
 
     #endregion
 

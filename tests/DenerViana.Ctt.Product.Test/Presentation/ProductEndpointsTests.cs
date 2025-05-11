@@ -23,7 +23,7 @@ public class ProductEndpointsTests
     }
 
     [Fact(DisplayName = "Get all Products")]
-    [Trait("Presentation", null)]
+    [Trait("Presentation", "ProductEndpoints")]
     public async Task GetAllProducts_ReturnsProducts()
     {
         // Arrange
@@ -38,7 +38,7 @@ public class ProductEndpointsTests
     }
 
     [Fact(DisplayName = "Get product by id")]
-    [Trait("Presentation", null)]
+    [Trait("Presentation", "ProductEndpoints")]
     public async Task GetProductById_ReturnsProduct_WhenProductExists()
     {
         // Arrange
@@ -55,7 +55,7 @@ public class ProductEndpointsTests
     }
 
     [Fact(DisplayName = "Add a product")]
-    [Trait("Presentation", null)]
+    [Trait("Presentation", "ProductEndpoints")]
     public async Task AddProduct_ReturnsSuccess_WhenHeadersAreValid()
     {
         // Arrange
