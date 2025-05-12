@@ -79,8 +79,13 @@ dotnet run
 - `GET /products/{id}` - Retorna o produto pelo ID.
 - `POST /products` - Adiciona um novo produto.
 
-
 ---
+
+## 🧩 Diagramas
+
+![image](https://github.com/user-attachments/assets/237bc93f-e240-4921-86f6-127954693bec)
+
+
 
 ## 🧪 Testes
 
