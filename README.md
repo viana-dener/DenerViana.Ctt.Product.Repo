@@ -81,11 +81,6 @@ dotnet run
 
 ---
 
-## 🧩 Diagramas
-
-![image](https://github.com/user-attachments/assets/237bc93f-e240-4921-86f6-127954693bec)
-
-
 
 ## 🧪 Testes
 
