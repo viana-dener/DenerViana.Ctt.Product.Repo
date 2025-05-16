@@ -1,6 +1,4 @@
-# DenerViana.Ctt.Product.Repo
-
-Exercício CTT - Backend .Net
+# Desafio CTT - Backend .Net
 
 ---
 
